@@ -1,66 +1,84 @@
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
 header h1 {
-  margin: 0;
+  margin: 0;
 }
 
 header p {
-  font-size: 14px;
-  margin-top: 5px;
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 main {
-  padding: 20px;
+  padding: 20px;
 }
 
 section {
-  border: 1px solid #ddd;
-  margin-bottom: 20px;
-  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
-section h2 {
-  margin-top: 0;
+section h1, section h2 {
+  margin-top: 0;
 }
 
 section ul {
-  list-style: none;
-  padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 section ul li {
-  margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 section ul li a {
-  color: #333;
-  text-decoration: none;
+  color: #333;
+  text-decoration: none;
+}
+
+section ul li a:hover {
+  text-decoration: underline;
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
 footer p {
-  margin: 0;
+  margin: 0;
 }
 
 footer a {
-  color: #fff;
-  text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
+/* Ajout de styles pour le formulaire */
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 10px;
